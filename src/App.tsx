@@ -1444,7 +1444,7 @@ function ExpandableImage({ src, alt, style }: { src: string; alt: string; style?
   const [open, setOpen] = React.useState(false)
   return (
     <>
-      <div style={{ position: 'relative', cursor: 'zoom-in' }} onClick={() => setOpen(true)}>
+      <div style={{ position: 'relative', cursor: 'zoom-in', width: '100%', height: '100%' }} onClick={() => setOpen(true)}>
         <img src={src} alt={alt} style={style} />
         <div style={{ position: 'absolute', bottom: 8, right: 8, background: 'rgba(0,0,0,0.55)', borderRadius: 4, padding: '3px 7px', display: 'flex', alignItems: 'center', gap: 4, pointerEvents: 'none' }}>
           <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.8)', fontFamily: "'DM Sans', sans-serif", letterSpacing: '0.04em' }}>Click to expand</span>
