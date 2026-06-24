@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" width="640" height="520">
+  <!-- Background -->
+  <rect width="640" height="520" fill="#0c1a2e"/>
+
+  <!-- Top bar -->
+  <rect width="640" height="48" fill="#0f2040"/>
+  <text x="156" y="30" font-family="system-ui, sans-serif" font-size="15" font-weight="600" fill="white">Your Brain Scan</text>
+  <text x="296" y="30" font-family="system-ui, sans-serif" font-size="14" fill="#5b9fef">3D view</text>
+  <rect x="524" y="12" width="104" height="24" rx="12" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="536" y="29" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.55)">ⓘ Not medical advice</text>
+
+  <!-- Left sidebar -->
+  <rect x="0" y="48" width="140" height="472" fill="#0a1628"/>
+
+  <!-- Sidebar: 3D view (active) -->
+  <rect x="10" y="60" width="120" height="80" rx="10" fill="#1a3a6a" stroke="#3a7ae8" stroke-width="1.5"/>
+  <rect x="45" y="70" width="48" height="38" rx="4" fill="none" stroke="#6aacf8" stroke-width="2"/>
+  <line x1="45" y1="85" x2="93" y2="70" stroke="#6aacf8" stroke-width="1.5"/>
+  <line x1="93" y1="70" x2="93" y2="108" stroke="#6aacf8" stroke-width="1.5"/>
+  <text x="70" y="124" font-family="system-ui, sans-serif" font-size="12" fill="#6aacf8" text-anchor="middle">3D view</text>
+
+  <!-- Sidebar items -->
+  <text x="70" y="185" font-family="system-ui, sans-serif" font-size="22" fill="rgba(255,255,255,0.3)" text-anchor="middle">🧠</text>
+  <text x="70" y="206" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)" text-anchor="middle">Overview</text>
+
+  <text x="70" y="254" font-family="system-ui, sans-serif" font-size="20" fill="rgba(255,255,255,0.3)" text-anchor="middle">⊟</text>
+  <text x="70" y="274" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)" text-anchor="middle">Slices</text>
+
+  <text x="70" y="318" font-family="system-ui, sans-serif" font-size="20" fill="rgba(255,255,255,0.3)" text-anchor="middle">ⓘ</text>
+  <text x="70" y="338" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)" text-anchor="middle">Information</text>
+
+  <text x="70" y="382" font-family="system-ui, sans-serif" font-size="20" fill="rgba(255,255,255,0.3)" text-anchor="middle">?</text>
+  <text x="70" y="400" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)" text-anchor="middle">Help</text>
+
+  <!-- Sidebar bottom care note -->
+  <rect x="10" y="432" width="120" height="76" rx="10" fill="#0f2040" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <text x="70" y="454" font-family="system-ui, sans-serif" font-size="18" fill="rgba(255,255,255,0.3)" text-anchor="middle">♡</text>
+  <text x="70" y="470" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" text-anchor="middle">If you have</text>
+  <text x="70" y="483" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" text-anchor="middle">questions, your</text>
+  <text x="70" y="496" font-family="system-ui, sans-serif" font-size="10" fill="rgba(255,255,255,0.4)" text-anchor="middle">care team is here.</text>
+
+  <!-- Main viewport: brain illustration -->
+  <!-- Skull outer -->
+  <ellipse cx="390" cy="290" rx="190" ry="210" fill="#c8855a"/>
+  <!-- Skull rim -->
+  <ellipse cx="390" cy="290" rx="190" ry="210" fill="none" stroke="#b07040" stroke-width="8"/>
+  <!-- Brain matter -->
+  <ellipse cx="390" cy="285" rx="175" ry="194" fill="#d9906a"/>
+  <!-- Cortical texture lines -->
+  <path d="M220 230 Q235 218 228 204 Q242 190 252 204" fill="none" stroke="#c07850" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M215 260 Q226 272 221 285 Q234 294 242 282" fill="none" stroke="#c07850" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M555 230 Q540 218 547 204 Q533 190 523 204" fill="none" stroke="#c07850" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M558 265 Q547 278 552 292 Q539 300 531 288" fill="none" stroke="#c07850" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Lateral ventricles — bright blue -->
+  <path d="M346 250 Q368 226 390 240 Q412 226 434 250 Q420 278 390 272 Q360 278 346 250Z" fill="#2563eb" stroke="#1d4ed8" stroke-width="1.5"/>
+  <!-- Fourth ventricle -->
+  <ellipse cx="390" cy="360" rx="38" ry="30" fill="#2563eb" stroke="#1d4ed8" stroke-width="1.5"/>
+  <!-- Connector -->
+  <rect x="383" y="278" width="14" height="86" fill="#2563eb"/>
+
+  <!-- Directional labels -->
+  <text x="390" y="92" font-family="system-ui, sans-serif" font-size="15" fill="rgba(255,255,255,0.45)" text-anchor="middle">A</text>
+  <text x="390" y="498" font-family="system-ui, sans-serif" font-size="15" fill="rgba(255,255,255,0.45)" text-anchor="middle">P</text>
+  <text x="162" y="295" font-family="system-ui, sans-serif" font-size="15" fill="rgba(255,255,255,0.45)" text-anchor="middle">R</text>
+  <text x="618" y="295" font-family="system-ui, sans-serif" font-size="15" fill="rgba(255,255,255,0.45)" text-anchor="middle">L</text>
+
+  <!-- Annotation line from ventricle -->
+  <line x1="428" y1="248" x2="490" y2="180" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+  <circle cx="428" cy="248" r="4" fill="white" opacity="0.7"/>
+
+  <!-- Annotation callout -->
+  <rect x="488" y="112" width="142" height="142" rx="12" fill="white"/>
+  <circle cx="508" cy="132" r="12" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5"/>
+  <text x="508" y="137" font-family="system-ui, sans-serif" font-size="13" fill="#2563eb" text-anchor="middle">♡</text>
+  <text x="517" y="137" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#1e3a5f">Enlarged ventricles</text>
+  <text x="496" y="162" font-family="system-ui, sans-serif" font-size="10.5" fill="#374151">These fluid spaces look</text>
+  <text x="496" y="176" font-family="system-ui, sans-serif" font-size="10.5" fill="#374151">larger than usual.</text>
+  <text x="496" y="198" font-family="system-ui, sans-serif" font-size="10.5" fill="#374151">This can happen with</text>
+  <text x="496" y="212" font-family="system-ui, sans-serif" font-size="10.5" fill="#374151">hydrocephalus — extra</text>
+  <text x="496" y="226" font-family="system-ui, sans-serif" font-size="10.5" fill="#374151">fluid in the brain.</text>
+  <text x="496" y="244" font-family="system-ui, sans-serif" font-size="10" fill="#6b7280">Your care team can help.</text>
+
+  <!-- Bottom bar -->
+  <rect x="140" y="476" width="500" height="44" fill="#0a1628"/>
+  <text x="390" y="502" font-family="system-ui, sans-serif" font-size="12" fill="rgba(255,255,255,0.35)" text-anchor="middle">☰  Click and drag to look around</text>
+  <rect x="548" y="480" width="84" height="32" rx="8" fill="#0f2040" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="590" y="500" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.45)" text-anchor="middle">↺  Reset view</text>
+</svg>

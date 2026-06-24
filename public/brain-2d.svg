@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" width="520" height="520">
+  <rect width="520" height="520" fill="#f0f0ee"/>
+
+  <!-- Skull border -->
+  <ellipse cx="260" cy="265" rx="215" ry="238" fill="#222" />
+  <!-- Skull inner -->
+  <ellipse cx="260" cy="265" rx="204" ry="227" fill="#bbb" />
+
+  <!-- Brain cortex -->
+  <ellipse cx="260" cy="260" rx="192" ry="214" fill="#d4d4d4" />
+
+  <!-- Cortical sulci — left hemisphere -->
+  <path d="M75 210 Q88 190 82 170 Q96 148 108 164 Q115 143 130 157 Q136 135 155 150 Q160 128 178 142" fill="none" stroke="#888" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M70 255 Q80 270 76 290 Q90 308 102 293 Q108 312 126 300 Q132 318 150 306" fill="none" stroke="#888" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M78 232 Q88 240 84 250" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cortical sulci — right hemisphere -->
+  <path d="M445 210 Q432 190 438 170 Q424 148 412 164 Q405 143 390 157 Q384 135 365 150 Q360 128 342 142" fill="none" stroke="#888" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M450 255 Q440 270 444 290 Q430 308 418 293 Q412 312 394 300 Q388 318 370 306" fill="none" stroke="#888" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M442 232 Q432 240 436 250" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Top sulci -->
+  <path d="M168 52 Q182 44 198 52 Q208 40 224 50 Q234 38 250 47" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+  <path d="M270 47 Q286 38 302 50 Q312 40 328 52 Q344 44 358 52" fill="none" stroke="#888" stroke-width="2" stroke-linecap="round"/>
+  <path d="M205 46 Q220 34 236 44" fill="none" stroke="#999" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- White matter core -->
+  <ellipse cx="260" cy="258" rx="128" ry="135" fill="#e0e0e0"/>
+
+  <!-- Corpus callosum line -->
+  <path d="M175 228 Q218 210 260 215 Q302 210 345 228" fill="none" stroke="#aaa" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Lateral ventricles (butterfly) -->
+  <path d="M218 222 Q236 200 260 212 Q284 200 302 222 Q290 250 260 244 Q230 250 218 222Z" fill="#111" stroke="#000" stroke-width="1"/>
+
+  <!-- Third ventricle -->
+  <ellipse cx="260" cy="258" rx="7" ry="20" fill="#111"/>
+
+  <!-- Thalami -->
+  <ellipse cx="238" cy="262" rx="26" ry="22" fill="#c0c0c0" stroke="#999" stroke-width="1.5"/>
+  <ellipse cx="282" cy="262" rx="26" ry="22" fill="#c0c0c0" stroke="#999" stroke-width="1.5"/>
+
+  <!-- Cerebellum -->
+  <ellipse cx="260" cy="360" rx="64" ry="48" fill="#c8c8c8" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="202" y1="348" x2="318" y2="348" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="200" y1="360" x2="320" y2="360" stroke="#aaa" stroke-width="1.5"/>
+  <line x1="204" y1="372" x2="316" y2="372" stroke="#aaa" stroke-width="1.5"/>
+
+  <!-- Brainstem -->
+  <rect x="244" y="400" width="32" height="44" rx="12" fill="#bbb" stroke="#999" stroke-width="1.5"/>
+</svg>
