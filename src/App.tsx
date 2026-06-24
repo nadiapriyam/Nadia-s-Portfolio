@@ -9,7 +9,7 @@ import {
   useReducedMotion,
   AnimatePresence,
 } from 'framer-motion'
-import labPhoto from '@assets/image_1782315146954.png'
+const labPhoto = '/lab-photo.png'
 
 // ─── Color System ────────────────────────────────────────────────────────────
 const G = {
