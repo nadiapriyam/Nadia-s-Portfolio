@@ -2038,12 +2038,11 @@ function ContactSection() {
     try {
       await emailjs.send(
         'service_y7pjsod',
-        '__ejs-test-mail-service__',
+        'template_lpd9377',
         {
-          from_name: formData.name,
-          from_email: formData.email,
+          name: formData.name,
+          title: formData.email,
           message: formData.message,
-          to_name: 'Nadia',
         },
         'tCf9vDqs4rEv1zQ31'
       )
